@@ -1,7 +1,10 @@
-function Products() {
-    return(
-        <h1>Products</h1>
-    );
-}
+import { Outlet } from 'react-router-dom'
 
-export default Products;
+export default function Products() {
+    return (
+       <>
+            <h1>Products</h1>
+            <Outlet />
+       </>
+    )
+}
