@@ -1,8 +1,7 @@
-function productPreview() {
+import React from "react"
+
+export default function productPreview() {
     return (
-        <h1>productPreview</h1>
+        <h1>product Preview</h1>
     )
 }
-
-
-export default productPreview;

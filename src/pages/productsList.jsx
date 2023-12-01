@@ -24,7 +24,7 @@ const products = [
 export default function ProductsList() {
     return (
         <>
-            <h1>Products List</h1>
+            <h1>products List</h1>
             <ul>
             {
                 products.map(product=>(
